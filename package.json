@@ -23,6 +23,10 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "auth0-js": "^9.10.2",
+    "axios": "^0.18.0",
+    "history": "^4.9.0",
+    "jwt-decode": "^2.2.0",
     "react-router-dom": "^5.0.0"
   }
 }

@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
-import Rutas from './componentes/Rutas';
+import {makeMainRoutes} from './componentes/routes';
+
+const routes = makeMainRoutes();
 
 class App extends Component {
   render() {
     return (
       <div className="contenedor">
-        <Rutas/>
+        {routes}
       </div>
     );
   }

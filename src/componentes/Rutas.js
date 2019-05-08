@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
+
+import infoProductos from '../datos/datos.json';
 import Productos from './Productos';
 import Nosotros from './Nosotros';
 import Error from './Error';
-import infoProductos from '../datos/datos.json';
 import Header from './Header';
 import SingleProducto from './SingleProducto';
 import Navegacion from './Navegacion';
